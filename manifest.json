@@ -1,0 +1,13 @@
+{
+    "name": "My Bookmarks",
+    "version": "0.1.0",
+    "description": "A self-hosted chrome bookmarks extension, including search, add, edit and delete.",
+    "permissions": ["bookmarks", "storage", "tabs"],
+    "browser_action": {
+        "default_title": "Self-Hosted Chrome Bookmarks",
+        "default_icon": "static/images/icon.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://cdn.staticfile.org; object-src 'self'"
+}
