@@ -1,8 +1,6 @@
 'use strict';
 
-let add = document.getElementById('listBookmarks');
-
-add.addEventListener('click', function() {
+$('#list').on('click', function() {
     chrome.tabs.create({url: 'dashboard.html'})
 })
 
